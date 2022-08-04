@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/small_image1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/new_song_title"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/title_start"
+        android:textColor="@color/redDelete"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/new_song_subtitle"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/sub_tile"
+        android:layout_margin="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_song_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/link_song_text"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_song_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_song_link"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/text_song_link"
+            android:hint="@string/link_song_hint"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/name_song_text"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_song_name"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/text_song_name"
+            android:hint="@string/name_song_hint"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/writer_song_text"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/text_song_writer"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edit_text_song_writer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_song_writer"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/text_song_writer"
+            android:hint="@string/writer_song_hint"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/camera_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:background="@null"
+            android:src="@drawable/camera_final" />
+
+        <ImageButton
+            android:id="@+id/gallery_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/camera_button"
+            android:layout_toEndOf="@id/camera_button"
+            android:background="@null"
+            android:src="@drawable/gallery_final" />
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/gallery_button"
+            android:background="@color/black" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/save_final" />
+
+        <ImageButton
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/save_button"
+            android:layout_toEndOf="@id/save_button"
+            android:background="@null"
+            android:src="@drawable/cancel_final" />
+    </RelativeLayout>
+</LinearLayout>

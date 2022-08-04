@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/activity_image">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/title_notification"
+        android:textColor="@color/redDelete"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSongs"
+        android:layout_width="330dp"
+        android:layout_height="470dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/lightGrey2" />
+
+    <ImageButton
+        android:id="@+id/add_new_song_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerViewSongs"
+        android:layout_alignEnd="@+id/recyclerViewSongs"
+        android:background="@null"
+
+        android:foregroundGravity="center"
+        android:src="@drawable/add1" />
+</RelativeLayout>

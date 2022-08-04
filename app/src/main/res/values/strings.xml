@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Music Player</string>
+    <string name="link_song_text">Song Link:</string>
+    <string name="link_song_hint">Insert link for a song</string>
+    <string name="name_song_text">Song Name:</string>
+    <string name="name_song_hint">Insert Song\'s name</string>
+    <string name="writer_song_text">Song Writer:</string>
+    <string name="writer_song_hint">Enter Song\'s Writer</string>
+    <string name="new_song_title">Add new song</string>
+    <string name="new_song_subtitle">Please insert song details</string>
+    <string name="not_finish_to_fill">In order to save the song you need to fill all of the fields above</string>
+    <string name="song_save">The song is saved.</string>
+    <string name="song_not_save">Cancel, the song did not save.</string>
+    <string name="title_notification">Media Player</string>
+    <string name="enjoy_text">Enjoy</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="no">No</string>
+    <string name="yes">Yes,i\'m sure</string>
+    <string name="sure_to_delete">Do you want to delete the song?</string>
+    <string name="plays">Song already in play</string>
+    <string name="by">By Eli Zard</string>
+</resources>
